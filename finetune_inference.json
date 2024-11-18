@@ -1,0 +1,18 @@
+{
+    "model_name_or_path": "Qwen/Qwen2-VL-7B-Instruct",
+    "adapter_name_or_path": "path_to_the_saved_lora_adapter",
+    "stage": "sft",
+    "do_predict": true,
+    "finetuning_type": "lora",
+    "eval_dataset": "aml",
+    "template": "qwen2_vl",
+    "cutoff_len": 1024,
+    "max_samples": 2000000,
+    "overwrite_cache": true,
+    "preprocessing_num_workers": 16,
+    "output_dir": "output_path",
+    "overwrite_output_dir": true,
+    "per_device_eval_batch_size": 1,
+    "predict_with_generate": true,
+    "ddp_timeout": 180000000
+}
