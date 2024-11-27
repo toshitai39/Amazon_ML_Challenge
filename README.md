@@ -73,21 +73,6 @@ Python 3.x
 CUDA-enabled GPU (recommended)
 Required libraries (listed in requirements.txt)
 
-Installation
-
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/multimodal-entity-extraction.git  
-cd multimodal-entity-extraction  
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt  
-Run Inference
-Preprocess your dataset (refer to data_preprocessing.py).
 
 
 📄 License:\
