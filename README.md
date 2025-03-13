@@ -75,8 +75,3 @@ Required libraries (listed in requirements.txt)
 
 
 
-📄 License:\
-This project is licensed under the MIT License.
-
-📫 Contact:\
-For questions or feedback, reach out to us at your.email@example.com.
